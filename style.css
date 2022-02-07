@@ -159,13 +159,28 @@ section {
 	font-weight: 800;
 	margin-top: 10px;
 }
-.more-details {
+.more-details{
 	text-decoration: none;
 	color: blue;
 }
 .more-details:hover {
+	color: purple;
 	transform: scale(1.08);
 }
+.more-details:after {
+	content: '';
+	position: absolute;
+	background-color: purple;
+	height: 3px;
+	width: 0;
+	left: 0;
+	bottom: -4px;
+	transition: 0.3s;
+}
+.more-details:hover:after{
+	width: 100%;
+}
+
 .footer {
 	background-color:#000016;
 	color: #fff;
