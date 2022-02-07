@@ -218,8 +218,15 @@ section {
 	.footer-title{
 		font-size: 1em;
 	}
+	.main {
+		min-height: 70vh;
+	}
 }
-@media (max-width: 411px){
+@media (max-width: 414px){
+
+	.footer {
+		margin-right: 1em;
+	}
 	
 	.footer-title{
 		font-size: 1em;
@@ -252,6 +259,8 @@ section {
 
 @media (max-width: 310px){
 	body {
-		font-size: 13px;
+		font-size: 12px;
 	}
+}
+
 }
