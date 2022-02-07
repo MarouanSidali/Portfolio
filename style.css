@@ -174,7 +174,7 @@ section {
 	justify-content: space-between;
 }
 .footer-title{
-	font-size: 1.3em;
+	font-size: 0.6em;
 	font-weight: 600;
 }
 .footer-title span {
@@ -215,9 +215,6 @@ section {
 	.card {
 		width: 19em;
 	}
-	.footer-title{
-		font-size: 1em;
-	}
 	.main {
 		min-height: 70vh;
 	}
@@ -228,9 +225,6 @@ section {
 		margin-right: 1em;
 	}
 	
-	.footer-title{
-		font-size: 1em;
-	}
 	.logo {
 		font-size: 1.15em;
 	}
@@ -238,13 +232,21 @@ section {
 		min-height: 70vh;
 	}
 	.card {
-		width: 18em;
+		width: 18.2em;
+	}
+}
+@media (max-width: 390px){
+	.main h2 span {
+		font-size: 1.8em;
 	}
 }
 
 @media (max-width: 347px){
 	body {
 		font-size: 15px;
+	}
+	.main h2 span {
+		font-size: 1.7em;
 	}
 	.navigation a {
 		font-size: 0.9em;
@@ -260,6 +262,9 @@ section {
 @media (max-width: 310px){
 	body {
 		font-size: 12px;
+	}
+	.main {
+		min-height: 60vh;
 	}
 }
 
